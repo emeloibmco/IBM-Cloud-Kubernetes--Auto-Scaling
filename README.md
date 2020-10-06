@@ -1,8 +1,5 @@
 # IBM-Cloud-Kubernetes--Auto-Scaling
 
-# Autoscaler-cluster
-# BareMetal Hourly Billing Guide - Schematics IBM Cloud
-
 _Ejemplo de configuración de Worker Pool para autoescalamiento_
 
 <img width="940" alt="BareMetal-Architecture" src="images/baremetal.JPG">
