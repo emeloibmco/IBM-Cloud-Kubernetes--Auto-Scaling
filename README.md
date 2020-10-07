@@ -55,7 +55,8 @@ helm repo update
 ```
 ### Visión general de las opciones de --set workerpools
 
-Decida si desea personalizar los valores del programa de escalado automático del clúster, como las agrupaciones de trabajadores que se escalan automáticamente o el intervalo de tiempo que el programa de escalado automático del clúster espera antes de que se aumente o se reduzca el número de nodos trabajadores. Puede personalizar los valores mediante el distintivo --set en el mandato helm install. En función de los valores que desee personalizar, es posible que tenga que preparar varios distintivos --set antes de poder instalar el diagrama de Helm. Por ejemplo, es posible que desee escalar automáticamente la agrupación de nodos trabajadores predeterminada preparando el siguiente distintivo --set. Nota: si el shell predeterminado es zsh, inicie una sesión bash antes de ejecutar el mandato siguiente.
+Decida si desea personalizar los valores del programa de escalado automático del clúster, como las agrupaciones de trabajadores que se escalan automáticamente o el intervalo de tiempo que el programa de escalado automático del clúster espera antes de que se aumente o se reduzca el número de nodos trabajadores. Puede personalizar los valores mediante el distintivo --set en el mandato helm install. En función de los valores que desee personalizar, es posible que tenga que preparar varios distintivos --set antes de poder instalar el diagrama de Helm. Por ejemplo, es posible que desee escalar automáticamente la agrupación de nodos trabajadores predeterminada preparando el siguiente distintivo --set. 
+- Nota: si el shell predeterminado es zsh, inicie una sesión bash antes de ejecutar el mandato siguiente.
 
 **Configuración de worker pools**
 ```
