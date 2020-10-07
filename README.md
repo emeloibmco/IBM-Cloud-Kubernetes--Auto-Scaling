@@ -58,7 +58,7 @@ Decida si desea personalizar los valores del programa de escalado automático de
 
 **Configuración de worker pools**
 ```
---set workerpools[0].<pool_name>.max=<number_of_workers>,workerpools[0].<pool_name>.min=<number_of_workers>,workerpools[0].<pool_name>.enabled=(true|false)
+--set workerpools[0].**<pool_name>**.max=<number_of_workers>,workerpools[0].<pool_name>.min=<number_of_workers>,workerpools[0].<pool_name>.enabled=(true|false)
 ```
 Visión general de las opciones de --set workerpools:
 
