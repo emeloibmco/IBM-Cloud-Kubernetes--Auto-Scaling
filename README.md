@@ -34,8 +34,6 @@ ibmcloud ks worker-pool get --cluster <cluster_name_or_ID> --worker-pool <worker
 ```
 <img width="940" alt="Get kube secrets" src="Assets/get-worker-pool.gif">
 
-**Salida de ejemplo de agrupación de nodos trabajadores con la etiqueta:**
-
 Prepare el clúster para el escalado automático.
 Siga las instrucciones para instalar el cliente Helm versión 3 en la máquina local.
 Añada y actualice el repositorio de Helm en el que se encuentra el diagrama de Helm del programa de escalado automático de clústeres.
