@@ -2,11 +2,11 @@
 
 _Ejemplo de configuración de Worker Pool para autoescalamiento_
 
-<img width="940" alt="BareMetal-Architecture" src="images/baremetal.JPG">
-
 ## Comenzando 🚀
 
 Para la configuración de Autoescalamiento de un Cluster se requiere del acceso a la CLI de Kubectl usando las instrucciones que se muestran a continuación para cada comando.
+
+<img width="940" alt="Get kube secrets" src="Assets/cluster-access.gif">
 
 ### Instrucciones 📋
 
@@ -20,6 +20,7 @@ kubectl get secrets -n kube-system | grep storage-secret-store
 ```
 kubectl get secrets -n kube-system
 ```
+<img width="940" alt="Get kube secrets" src="Assets/secrets-kube-system.gif">
 
 Compruebe si la agrupación nodos trabajadores tiene la etiqueta necesaria.
 
@@ -31,6 +32,7 @@ ibmcloud ks worker-pool get --cluster <cluster_name_or_ID> --worker-pool <worker
 ```
 ibmcloud ks worker-pool get --cluster <cluster_name_or_ID> --worker-pool <worker_pool_name_or_ID>
 ```
+<img width="940" alt="Get kube secrets" src="Assets/get-worker-pool.gif">
 
 **Salida de ejemplo de agrupación de nodos trabajadores con la etiqueta:**
 
