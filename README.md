@@ -70,3 +70,6 @@ Decida si desea personalizar los valores del programa de escalado automático de
 **_Tenga en cuenta que el hecho de establecer un tamaño min no activa automáticamente un aumento. El tamaño min es un umbral de modo que el programa de escalado automático del clúster no escala por debajo de este número mínimo de nodos trabajadores por zona. Si el clúster no tiene todavía este número de nodos trabajadores por zona, el programa de escalado automático del clúster no aumenta el número de nodos hasta que tenga solicitudes de recursos de carga de trabajo que requieran más recursos._**
 
 - enabled=(true|true|false): establezca el valor en true para habilitar el programa de escalado automático del clúster para escalar la agrupación de nodos trabajadores. Establezca el valor en false para detener el escalado de la agrupación de nodos trabajadores por parte del programa de escalado automático de clústeres. Más adelante, si desea eliminar el programa de escalado automático de clústeres, primero deberá inhabilitar cada agrupación de nodos trabajadores en el mapa de configuración.
+
+<img width="940" alt="Get kube secrets" src="Assets/auto_command.gif">
+
