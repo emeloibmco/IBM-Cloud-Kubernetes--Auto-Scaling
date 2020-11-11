@@ -73,3 +73,12 @@ Decida si desea personalizar los valores del programa de escalado automático de
 
 <img width="940" alt="Get kube secrets" src="Assets/auto_command.gif">
 
+Posterior a ingresar el comando se obtendrá respuesta con la información de los recursos configurados y luego de ello so podrá analizar el ConfigMap del Cluster configurado para autoescalamiento con el siguiente comando 
+
+´´´
+ kubectl get cm iks-ca-configmap -n kube-system -o yaml
+´´´ 
+El cual entrega la información de las configuraciones del CLUSTER al cual se encuentra conectado, de la siguiente manera:
+<img width="940" alt="Get kube secrets" src="Assets/auto_show.gif">
+
+Como se puede observar, se cuenta con la configuración del autoescalamiento del cluester en formato JSON donde se evidencia el máximo y mínimo número de nodos de acuerdo a la necesidad de los despliegues o el uso de la plataforma de Kubernetes
